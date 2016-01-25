@@ -1,0 +1,133 @@
+
+img, embed, object, video{
+	width: 100%;
+}
+h1{
+	font: 8vw 'Raleway', sans-serif;
+	color: rgb(89,58,71);
+	letter-spacing: 1.5px;
+}
+h2{
+	color: rgb(89,58,71);
+	letter-spacing: 1px;
+	font-size: 6vw;	
+}
+h3{
+	font: 4.5vw 'Cutive Mono', sans-serif;
+	color: rgb(179,162,180);
+	letter-spacing: 11px;
+}
+hr{
+    border: none;
+    height: 2.5px;
+    background-color: rgb(123,119,129);
+a{
+	color: rgb(89,58,71);
+	text-decoration: none;
+}
+a:hover{
+	color: rgb(203,211,160);
+	text-decoration: none;
+}
+nav{
+  	width: 100%;
+ }
+.nav-list{
+  	width: 100%;
+  	padding: 0;
+  	margin: 0;
+}
+.nav-item{
+  	font-size: 18px;
+  	box-sizing: border-box;
+  	text-align: center;
+  	line-height: 20px;
+  	padding: 10px 40px 0px 15px;
+  	text-transform: uppercase;
+  	display: inline-block;
+  	margin-left: 0;
+}
+.nav a{
+  	text-decoration: none;
+  	color: rgb(179,162,180);
+}
+.nav a:hover{
+  	text-decoration: underline;
+  	color: rgb(203,211,160);
+}
+@media screen and (min-width: 0px) and (max-width: 375px){ 
+	a{ 
+		font-size: 14px;
+		padding: 48px;
+	} 
+	.nav-item{ 
+		width: 48px;
+		height: 48px;
+		padding-right: 70px;	
+		font-size: 14px;		
+	}
+}
+ @media screen and (min-width: 401px) and (max-width: 475px){ 
+	h1{
+		font-size: 40px;
+	}
+	 h2{
+		font-size: 32px;
+	}
+	h3{ 
+		font-size: 15px;
+		margin-top: 0;
+	}
+	.nav-item{
+		width: 48px;
+		height: 48px;
+		padding-right: 70px; 
+		font-size: 13px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media screen and (min-width: 476px) and (max-width: 564px){ 
+	h1{
+		font-size: 48.5px;
+	}
+	h2{
+		font-size: 32px;
+	}
+	h3{ 
+		font-size: 22px;
+		margin-top: 0;
+	}
+} 
+@media screen and (min-width: 565px) and (max-width: 989px){ 	
+	h1{
+		font-size: 59px;
+	}
+	h2{
+		font-size: 32px;
+	}
+	h3{ 
+		font-size: 30px;
+		margin-top: 0;
+	} 
+	.nav-item{
+		margin-left: 0;
+		padding-top: 20px;
+	}
+} 
+@media screen and (min-width: 990px) and (max-width: 1500px){
+	h1{ 
+		font-size: 50px;
+	}
+	h2{
+		font-size: 32px;
+	}
+	h3{ 
+		font-size: 23px;
+		margin-top: 0;
+	}
+	.nav-item{
+		font-size: 18px;
+		padding-right: 70px;			
+	}
+}
