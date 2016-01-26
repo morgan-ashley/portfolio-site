@@ -1,1 +1,1 @@
-![alt tag](screenshots/portfolio-design-mockuo.png "Portfolio design mockup")
+![alt tag](screenshots/portfolio-design-mockup.png "Portfolio design mockup")
