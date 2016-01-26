@@ -44,37 +44,3 @@ hr {
 .list-inline li:first {
 	padding: 0;
 }
-
-
-
-/*@media screen and (min-width: 760px) and (max-width: 980px){ 
-	h1{
-		font-size:60.5px;
-	}
-	h2{
-		font-size: 32px;
-	}
-	h3{ 
-		font-size: 22px;
-		margin-top: 0;
-	}
-} 
-
-@media screen and (min-width: 990px) and (max-width: 1500px){
-	h1{ 
-		font-size: 50px;
-	}
-	h2{
-		font-size: 32px;
-	}
-	h3{ 
-		font-size: 23px;
-		margin-top: 0;
-	}
-	.nav-item{
-		font-size: 18px;
-		padding-right: 70px;			
-	}
-}
-
-*/
